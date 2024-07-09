@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Ramiroparisi. I am studying systems engineering
-- 👀 I’m interested in everything that makes me curious at a specific time
-- 🌱 I’m currently learning a bit of all, like web development, automatization, software, networks, etc
+- 👀 I’m interested in mobile development
+- 🌱 I’m currently learning a bit of all, like web development, automatization, networks, soft skills, etc
 - 📫 U can reach me by instagram: @rama_parisi
 
 <!---
