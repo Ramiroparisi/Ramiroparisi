@@ -1,0 +1,45 @@
+### obtener todos los kinesiologos
+GET http://localhost:3000/api/kinesiologo
+
+### obtener un kinesiologo
+GET http://localhost:3000/api/kinesiologo/a02b91bc-3769-4221-beb1-d7a3aeba7dad
+
+### crear un nuevo kinesiologo
+POST http://localhost:3000/api/kinesiologo
+Content-Type: application/json
+
+{
+    "nombre": "Ramiro",
+    "especialidad": "Deporte",
+    "apellido": "Parisi",
+    "dni": 44291893,
+    "matricula": 51035,
+    "mail": "ramaparisi264@gmail.com",
+    "telefono": 543415961381
+}
+
+### modificar un kinesiologo PUT
+PUT http://localhost:3000/api/kinesiologo/a02b91bc-3769-4221-beb1-d7a3aeba7dad
+Content-Type: application/json
+
+{
+    "nombre": "Enzo",
+    "especialidad": "Deporte",
+    "apellido": "Manavella",
+    "dni": 45343253,
+    "matricula": 51364,
+    "mail": "enzomanavella674@gmail.com",
+    "telefono": 54345275353,
+    "password": "enzoM121srqq",
+}
+
+### modificar un kinesiologo PATCH
+PATCH http://localhost:3000/api/kinesiologo/a02b91bc-3769-4221-beb1-d7a3aeba7dad
+Content-Type: application/json
+
+{
+    "nombre": "Edgar Alan"
+}
+
+### borrar un kinesiologo
+DELETE http://localhost:3000/api/kinesiologo/a02b91bc-3769-4221-beb1-d7a3aeba7dad
